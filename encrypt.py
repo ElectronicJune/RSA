@@ -1,18 +1,17 @@
-def pow_mod(n,pow,mod):
+def pow_mod(n, pow, mod):
     binary_pow = bin(pow)[3:]
     result = n
     for i in binary_pow:
-        result**=2
-        result%=mod
-        if i=="1":
-            result*=n
-        result%=mod
+        result **= 2
+        result %= mod
+        if i == "1":
+            result *= n
+        result %= mod
     return result
 
 print("== ENTER LOCK ==")
 lock_num_1 = int(input("first num  : "))
 lock_num_2 = int(input("second num : "))
-
 
 txt = input("enter text to encrypt: ")
 
