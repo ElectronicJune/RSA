@@ -9,7 +9,7 @@ def pow_mod(n,pow,mod):
         result%=mod
     return result
 
-print("==enter lock==")
+print("== ENTER LOCK ==")
 lock_num_1 = int(input("first num  : "))
 lock_num_2 = int(input("second num : "))
 

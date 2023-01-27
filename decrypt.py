@@ -9,7 +9,7 @@ def pow_mod(n,pow,mod):
         result%=mod
     return result
 
-print("==enter key==")
+print("== ENTER KEY ==")
 key_num_1 = int(input("first num  : "))
 key_num_2 = int(input("second num : "))
 
