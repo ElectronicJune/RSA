@@ -14,8 +14,8 @@ pn = (p-1 )* (q-1)
 
 
 e_list = []
-for i in range(2,pn):
-    if math.gcd(i,n)==1 and math.gcd(i,pn)==1 :
+for i in range(3,pn):
+    if math.gcd(i,pn)==1 :
         e_list.append(i)
 
 e = e_list[random.randrange(0,len(e_list))]
