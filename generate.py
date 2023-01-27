@@ -4,10 +4,16 @@ import random
 print("==give 2 different large prime numbers==")
 p = int(input("prime 1: "))
 q = int(input("prime 2: "))
+
+if p == q :
+    print("primes can not be the same.")
+    input()
+    exit()
+
 n = p * q
 
 if n < 128 :
-    print("prime numbers not large enough")
+    print("prime numbers not large enough.")
     input()
     exit()
 
