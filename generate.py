@@ -30,8 +30,8 @@ for i in range(0,d_index+1):
         break
     
         
-print(f"lock : {e},{n}")
-print(f"key  : {d},{n}")
+print(f"lock : {e}, {n}")
+print(f"key  : {d}, {n}")
 
 input()
         
