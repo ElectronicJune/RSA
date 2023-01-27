@@ -4,6 +4,12 @@ print("==give 2 different large prime numbers==")
 p = int(input("prime 1: "))
 q = int(input("prime 2: "))
 n = p*q
+
+if n<128 :
+    print("prime numbers not large enough")
+    input()
+    exit()
+
 pn = (p-1 )* (q-1)
 
 
