@@ -10,11 +10,12 @@ def pow_mod(n, pow, mod):
     return result
 
 print("== ENTER LOCK ==")
-lock_num_1 = int(input("first num  : "))
-lock_num_2 = int(input("second num : "))
+lock_num_1 = int(input("1st NUMBER : "))
+lock_num_2 = int(input("2nd NUMBER : "))
 
-txt = input("enter text to encrypt: ")
+txt = input("\nENTER MESSAGE: ")
 
+print("\nENCRYPTED MESSAGE: ")
 encrypted_num = []
 for i in txt:
     encrypted_num.append(str(pow_mod(ord(i),lock_num_1,lock_num_2)))

@@ -1,19 +1,19 @@
 import math
 import random
 
-print("==give 2 different large prime numbers==")
-p = int(input("prime 1: "))
-q = int(input("prime 2: "))
+print("== ENTER 2 DIFFERENT LARGE PRIME NUMBERS ==")
+p = int(input("1st PRIME: "))
+q = int(input("2nd PRIME: "))
 
 if p == q :
-    print("primes can not be the same.")
+    print("\n!!! Primes can't be same.")
     input()
     exit()
 
 n = p * q
 
 if n < 128 :
-    print("prime numbers not large enough.")
+    print("\n!!! Prime numbers too small.")
     input()
     exit()
 
@@ -34,7 +34,8 @@ for i in range(0, d_index + 1):
         d += 1
     if i == d_index:
         break
-    
+
+print()
 print(f"lock : {e}, {n}")
 print(f"key  : {d}, {n}")
 

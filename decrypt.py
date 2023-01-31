@@ -10,11 +10,12 @@ def pow_mod(n, pow, mod):
     return result
 
 print("== ENTER KEY ==")
-key_num_1 = int(input("first num  : "))
-key_num_2 = int(input("second num : "))
+key_num_1 = int(input("1st NUMBER : "))
+key_num_2 = int(input("2nd NUMBER : "))
 
-decrypted_list = input("enter list to decrypt: ").split(",")
+decrypted_list = input("\nENTER LIST : ").split(",")
 
+print("\nMESSAGE: ")
 for i in decrypted_list:
     print(chr(pow_mod(int(i),key_num_1,key_num_2)),end="")
 
